@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto|Roboto+Slab');
+
+
+body {
+	margin: 0;
+	padding: 0;
+/*
+	display: flex;
+	justify-content: center;
+
+*/
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+
+	-webkit-overflow-scrolling: touch;
+	-moz-overflow-scrolling: touch;
+	-o-overflow-scrolling: touch;
+	-ms-overflow-scrolling: touch;
+
+	font-family: 'Roboto Slab', serif;
+	background: url('/img/bg.jpg') no-repeat center top;
+}
+
+#file_info_p {
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus .nav-link {
+    color: #fde300;
+}
+
+.navbar-inverse .navbar-nav .active .nav-link {
+    color: #fff;
+}
+
+.container-fluid{
+    margin-top: 0;
+}
+#main_block {
+
+	margin-top: 0px;
+	object-fit: contain;
+}
+
+#main_block_admin
+
+ {
+	width: 80%;
+	margin-top: 0px;
+	object-fit: contain;
+}
+
+h1 {
+    display: block;
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#FileStoreImg {
+	max-width: 120px;
+}
+
+
+#FileStoreImg_little {
+	width: 90px;
+	margin-top: 5px;
+}
+
+#file-send {
+    max-width: 510px;
+}
+
+.input1 {
+	max-width: 510px;
+	margin-top: 10px;
+	/* text-shadow: black 0.1em 0.1em 0.2em}; */ /* тень! */
+}
+
+.input2 {
+	width: 416px;
+	margin-top: 10px;
+	/* text-shadow: black 0.1em 0.1em 0.2em}; */ /* тень! */
+}
+
+#text_p {
+	max-width: 510px;
+	text-align: justify;
+}
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse {
+	background: #FFF;
+	border-color: #F1F1F1;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #4485F4;
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+
+}
+
+#console {
+	margin-top: -30px;
+}
+
+#main_block_admin
+
+ {
+	width: 90%;
+	margin-top: 10px;
+	object-fit: contain;
+}
+
+
+.my_table {
+	padding: 10px;
+    padding-left: 15px;
+	border: 1px solid #ccc;
+}
+
+.my_table_header {
+	background: #E5E5E5;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+.my_table_str {
+	padding: 5px;
+}
+
+#load_id {
+	width: 40px;
+	margin-top: -45px;
+}
