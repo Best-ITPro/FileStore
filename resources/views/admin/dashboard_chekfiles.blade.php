@@ -6,6 +6,7 @@
         <br>
         <h4>Проверяем файлы в хранилище и удаляем старые файлы...</h4><br>
 
+        <button class="btn btn-primary" onclick="window.history.back()"><i class="fas fa-backspace"></i> Назад</button>
         <p align="justify">
 
         {!! $message  !!}
@@ -15,6 +16,6 @@
     </div>
 
     <br><br>
-    <a href="{{ route('admin.filesdir') }}"><button class="btn btn-primary"><i class="fas fa-backspace"></i> Назад</button></a>
+    <button class="btn btn-primary" onclick="window.history.back()"><i class="fas fa-backspace"></i> Назад</button>
     </div>
 @endsection

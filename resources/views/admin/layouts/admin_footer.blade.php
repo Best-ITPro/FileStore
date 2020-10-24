@@ -14,7 +14,7 @@
 
 
 <center><font size="1"><b>Разработано для MODUL.OOO</b><br>Created by <a href="http://best-itpro.ru" target="_blank">Best IT Pro</a> © 2017 - <?= date('Y', time()) ?>
-        <br><b><a href="{{ route('versions') }}"><font color="#000">Version 3.1</font></a></b></font></center><br>
+        <br><b><a href="{{ route('versions') }}"><font color="#000">Version 3.2</font></a></b></font></center><br>
 
 
 

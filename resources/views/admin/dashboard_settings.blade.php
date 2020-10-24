@@ -65,6 +65,8 @@ $day_save = MyApp::DAY_SAVE;
                     константа <b>DAY_SAVE</b><br>
                     класс <b>App\MyApp</b>
                 </p>
+                <br>
+                <a href="{{ route('file-check-interface') }}" class="btn btn-primary"><i class="fas fa-folder-minus"></i> Ревизия хранилища</a>
 
 
                 </center>
